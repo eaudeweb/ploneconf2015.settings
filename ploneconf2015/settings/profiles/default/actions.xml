@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<object name="portal_actions">
+ <object name="portal_tabs">
+  <object name="schedule" meta_type="CMF Action">
+   <property name="title">Schedule</property>
+   <property name="description"></property>
+   <property name="url_expr">string:$portal_url#schedule</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="training" meta_type="CMF Action">
+   <property name="title">Training</property>
+   <property name="description"></property>
+   <property name="url_expr">string:$portal_url#training</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">False</property>
+  </object>
+  <object name="location" meta_type="CMF Action">
+   <property name="title">Location</property>
+   <property name="description"></property>
+   <property name="url_expr">string:$portal_url#location</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="submit_talk" meta_type="CMF Action">
+   <property name="title">Submit Talk</property>
+   <property name="description"></property>
+   <property name="url_expr">string:$portal_url#submit-talk</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">False</property>
+  </object>
+  <object name="buy_ticket" meta_type="CMF Action">
+   <property name="title">Buy your tickets</property>
+   <property name="description"></property>
+   <property name="url_expr">string:$portal_url#buy</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">False</property>
+  </object>
+  <object name="goals" meta_type="CMF Action">
+   <property name="title">About</property>
+   <property name="description"></property>
+   <property name="url_expr">string:$portal_url#goals</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="contact" meta_type="CMF Action">
+   <property name="title">Contact</property>
+   <property name="description"></property>
+   <property name="url_expr">string:$portal_url#updates</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+ </object>
+</object>

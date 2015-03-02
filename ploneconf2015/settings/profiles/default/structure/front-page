@@ -1,0 +1,44 @@
+id: front-page
+title: Plone Conf. Bucharest 2015
+description: 
+subject: 
+relatedItems: 
+location: 
+language: en
+effectiveDate: 2015/02/09 09:25:00 GMT+2
+expirationDate: None
+creation_date: 2015/02/09 09:24:52.229157 GMT+2
+modification_date: 2015/03/02 16:27:41.263328 GMT+2
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: False
+excludeFromNav: False
+presentation: False
+tableContents: False
+Content-Type: text/html
+
+<h2>Schedule</h2>
+<p> </p>
+<table class="invisible">
+<tbody>
+<tr><th><a class="internal-link schedule-training" href="#schedule" target="_self" title="">Training</a></th><th><a class="internal-link schedule-conference" href="#schedule" target="_self" title="">Conference</a></th><th><a class="internal-link schedule-sprints" href="#schedule" target="_self" title="">Sprints</a></th></tr>
+</tbody>
+</table>
+<p style="padding-left: 60px; "><a class="internal-link schedule-full" href="#schedule" target="_self" title="">See the full schedule</a></p>
+<h2></h2>
+<h2>Location</h2>
+<p> </p>
+<table class="invisible">
+<tbody>
+<tr><th><a class="internal-link location-photos" href="#location" target="_self" title="">Photos</a></th><th><a class="internal-link location-map" href="#location" target="_self" title="">View map</a></th><th><a class="internal-link location-to-do" href="#location" target="_self" title="">Things to do</a></th><th><a class="internal-link location-directions" href="#location" target="_self" title="">Get directions</a></th></tr>
+</tbody>
+</table>
+<h2></h2>
+<h2>Sponsorship</h2>
+<table class="invisible">
+<tbody>
+<tr><th style="padding-left: 90px; "><a class="internal-link sponsorship" href="sponsorship" target="_self" title="">Become a sponsor</a></th></tr>
+</tbody>
+</table>
+<p> </p>
