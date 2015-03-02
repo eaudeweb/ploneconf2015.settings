@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='ploneconf2015.settings',
       version=version,
-      description="",
+      description="Settings for Plone Conf 2015",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -33,6 +33,4 @@ setup(name='ploneconf2015.settings',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
       )
