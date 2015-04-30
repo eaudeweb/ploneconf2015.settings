@@ -10,16 +10,6 @@
   <property name="header">Volunteer</property>
   <property name="footer"/>
  </assignment>
- <assignment name="tickets" category="context" key="/"
-    manager="plone.rightcolumn" type="plone.portlet.static.Static"
-    visible="True">
-  <property
-     name="text">&lt;p&gt;&lt;a class="internal-link tickets-buy" href="resolveuid/de52f219b9764d36b78ae1ea9650596c" target="_self" title=""&gt;Buy ticket&lt;/a&gt;&lt;/p&gt;</property>
-  <property name="more_url"/>
-  <property name="omit_border">False</property>
-  <property name="header">Tickets</property>
-  <property name="footer"/>
- </assignment>
  <assignment name="footer" category="context" key="/"
     manager="plone.rightcolumn" type="plone.portlet.static.Static"
     visible="True">
