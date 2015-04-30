@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<portlets>
+ <assignment name="volunteer" category="context" key="/"
+    manager="plone.rightcolumn" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;p&gt;&lt;strong&gt;&lt;a class="internal-link volunteer" href="mailto:alec@eaudeweb.ro"&gt;Apply here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">False</property>
+  <property name="header">Volunteer</property>
+  <property name="footer"/>
+ </assignment>
+ <assignment name="tickets" category="context" key="/"
+    manager="plone.rightcolumn" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;p&gt;&lt;a class="internal-link tickets-buy" href="resolveuid/de52f219b9764d36b78ae1ea9650596c" target="_self" title=""&gt;Buy ticket&lt;/a&gt;&lt;/p&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">False</property>
+  <property name="header">Tickets</property>
+  <property name="footer"/>
+ </assignment>
+ <assignment name="footer" category="context" key="/"
+    manager="plone.rightcolumn" type="plone.portlet.static.Static"
+    visible="True">
+  <property name="text">&lt;table class="invisible"&gt;
+   &lt;tbody&gt;
+   &lt;tr&gt;&lt;th&gt;&lt;a class="footer-schedule" href="front-page#schedule" target="_self" title=""&gt;Schedule&lt;/a&gt;&lt;/th&gt;&lt;th&gt;&lt;a class="footer-training" href="trainings" target="_self" title=""&gt;Training&lt;/a&gt;&lt;/th&gt;&lt;th&gt;&lt;a class="footer-location" href="venue" target="_self" title=""&gt;Location&lt;/a&gt;&lt;/th&gt;&lt;th&gt;&lt;a class="footer-submit-talk" href="front-page#submit-talk" target="_self" title=""&gt;Submit talk&lt;/a&gt;&lt;/th&gt;&lt;th&gt;&lt;a class="terms-and-conditions" href="event-terms-and-conditions" target="_self" title=""&gt;Terms and conditions&lt;/a&gt;&lt;/th&gt;&lt;/tr&gt;
+   &lt;/tbody&gt;
+   &lt;/table&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">False</property>
+  <property name="header">Footer</property>
+  <property name="footer"/>
+ </assignment>
+ <assignment name="sponsorship" category="context" key="/"
+    manager="plone.rightcolumn" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;p&gt;&lt;strong&gt;&lt;a class="internal-link sponsorship" href="sponsorship" target="_self" title=""&gt;Become a sponsor&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">False</property>
+  <property name="header">Sponsorship</property>
+  <property name="footer"/>
+ </assignment>
+ <assignment name="global-navigation-left" category="context" key="/"
+  manager="plone.leftcolumn" type="plone.portlet.static.Static"
+  visible="True">
+  <property name="text">&lt;ul class="nav navbar-nav plone-globalnav-left"&gt;
+   &lt;li class="dropdown"&gt;&lt;a href="../venue" data-toggle="dropdown"&gt;Location&lt;/a&gt;
+   &lt;ul class="dropdown-menu"&gt;
+   &lt;li&gt;&lt;a href="../venue#venue"&gt;The Venue&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href="../venue#from-the-airport"&gt;From the airport&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href="../venue#accomodation"&gt;Accommodation&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href="../venue#things-to-do"&gt;Things to do&lt;/a&gt;&lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;/li&gt;
+   &lt;li&gt;&lt;a href="../trainings"&gt;Training&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href="../sprints"&gt;Sprints&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href="../sponsorship"&gt;Sponsorship&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href="../contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+   &lt;/ul&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">False</property>
+  <property name="header">Global Navigation Left</property>
+  <property name="footer"/>
+ </assignment>
+ <assignment name="global-navigation-right" category="context" key="/"
+    manager="plone.rightcolumn" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;ul class="nav navbar-nav navbar-right plone-globalnav-right"&gt;&lt;!--li&gt;&lt;a class="btn btn-outline btn-block btn-rounded"&gt;Submit talk&lt;/a&gt;&lt;/li--&gt;
+   &lt;li id="plone-buy-tickets-header"&gt;&lt;a class="btn btn-success btn-block btn-rounded" href="../tickets"&gt;Buy your tickets&lt;/a&gt;&lt;/li&gt;
+   &lt;/ul&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">False</property>
+  <property name="header">Global Navigation Right</property>
+  <property name="footer"/>
+ </assignment>
+</portlets>
