@@ -1,44 +1,82 @@
 id: front-page
-title: Plone Conf. Bucharest 2015
-description: 
-subject: 
-relatedItems: 
-location: 
+title: Plone Conf. 2015, Bucharest, Romania
+description: Plone Conf. 2015, Bucharest, Romania
+subject:
+relatedItems:
+location:
 language: en
 effectiveDate: 2015/02/09 09:25:00 GMT+2
 expirationDate: None
 creation_date: 2015/02/09 09:24:52.229157 GMT+2
 modification_date: 2015/03/02 16:27:41.263328 GMT+2
 creators: admin
-contributors: 
-rights: 
+contributors:
+rights:
 allowDiscussion: False
 excludeFromNav: False
 presentation: False
 tableContents: False
 Content-Type: text/html
 
-<h2>Schedule</h2>
-<p> </p>
-<table class="invisible">
-<tbody>
-<tr><th><a class="internal-link schedule-training" href="#schedule" target="_self" title="">Training</a></th><th><a class="internal-link schedule-conference" href="#schedule" target="_self" title="">Conference</a></th><th><a class="internal-link schedule-sprints" href="#schedule" target="_self" title="">Sprints</a></th></tr>
-</tbody>
-</table>
-<p style="padding-left: 60px; "><a class="internal-link schedule-full" href="#schedule" target="_self" title="">See the full schedule</a></p>
-<h2></h2>
-<h2>Location</h2>
-<p> </p>
-<table class="invisible">
-<tbody>
-<tr><th><a class="internal-link location-photos" href="#location" target="_self" title="">Photos</a></th><th><a class="internal-link location-map" href="#location" target="_self" title="">View map</a></th><th><a class="internal-link location-to-do" href="#location" target="_self" title="">Things to do</a></th><th><a class="internal-link location-directions" href="#location" target="_self" title="">Get directions</a></th></tr>
-</tbody>
-</table>
-<h2></h2>
-<h2>Sponsorship</h2>
-<table class="invisible">
-<tbody>
-<tr><th style="padding-left: 90px; "><a class="internal-link sponsorship" href="sponsorship" target="_self" title="">Become a sponsor</a></th></tr>
-</tbody>
-</table>
-<p> </p>
+<section id="schedule">
+<h2 class="text-center">Schedule</h2>
+<ul class="welcome">
+<li><a class="training btn btn-outline btn-block text-center" href="trainings"> <time class="date">12 - 13<small>October</small></time> <span class="icon"><i class="fa fa-graduation-cap fa-3x"></i></span> <span class="name">Training</span> </a></li>
+<li><a class="conference btn btn-outline btn-block text-center" href="front-page#schedule"> <time class="date">14 - 16<small>October</small></time> <span class="icon"><i class="fa fa-microphone fa-3x"></i></span> <span class="name">Conference</span> </a></li>
+<li><a class="sprints btn btn-outline btn-block text-center" href="sprints"> <time class="date">17 - 18<small>October</small></time> <span class="icon"><i class="fa fa-terminal fa-3x"></i></span> <span class="name">Sprints </span></a></li>
+</ul>
+<p class="text-center">The entire conference is organized in the same premises, with dedicated staffs at out disposal to ensure that quality services are available at all times.</p>
+<div>
+<p class="sr-only">"All-in-one" 2015 Plone Conference</p>
+</div>
+</section><section id="location">
+<h2 class="text-center">Location</h2>
+<div class="row">
+<div class="col-md-6"><a href="venue" id="location-photos" title="Map, venue, directions and accommodation"> <img class="image-inline external-image" id="location-1" src="++theme++ploneconf2015.theme/img/location-intercontinental.jpg" /> <img class="image-inline external-image" id="location-2" src="++theme++ploneconf2015.theme/img/location-calea-victoriei.jpg" /> <img class="image-inline external-image" id="location-3" src="++theme++ploneconf2015.theme/img/location-centrul-vechi.jpg" /> </a></div>
+<div class="col-md-6">
+<p>The conference will be held in Romania's vibrant capital, at one of Bucharest's more imposing landmarks, the Intercontinental.</p>
+<p>Bucharest is an eclectic burst of metropolitan and intelectual ambition. Its many attractions, ecstatic night-life and immersive underground culture are within walking distance of the conference venue.</p>
+<div><a class="map btn btn-primary" href="venue#venue">View map</a> <a class="directions btn btn-link" href="venue#from-the-airport">Directions</a> <a class="to-do btn btn-link" href="venue#things-to-do">Things to do</a> <a class="accommodation btn btn-link" href="venue#accomodation">Accommodation</a></div>
+</div>
+</div>
+</section><section id="goals">
+<h2 class="text-center">This year's goals</h2>
+<ul class="goal-list">
+<li class="goal"><img class="img-responsive image-inline external-image" src="++theme++ploneconf2015.theme/img/graphic-affirm.svg" />
+<p><strong>affirm</strong> the performance, innovation and team spirit surrounding the Plone community</p>
+</li>
+<li class="goal"><img class="img-responsive image-inline external-image" src="++theme++ploneconf2015.theme/img/graphic-experience.svg" />
+<p><strong>experience</strong> a fun and productive event that's packed with insightful lectures and unforgettable parties</p>
+</li>
+<li class="goal"><img class="img-responsive image-inline external-image" src="++theme++ploneconf2015.theme/img/graphic-welcome.svg" />
+<p><strong>welcome</strong> Romania, a Plone Conf. debutant, and its Plone enthusiasts among the more established members</p>
+</li>
+</ul>
+</section><section id="updates">
+<h2 class="text-center">Updates</h2>
+<!-- <form class="form-group">
+        <label for="">Subscribe to mailing list</label>
+        <div class="input-group">
+          <input type="email" placeholder="Email address"
+                 class="form-control">
+          <div class="input-group-btn">
+            <button class="btn btn-primary" type="submit">Sign up</button>
+          </div>
+        </div>
+      </form> -->
+<ul class="update-icons">
+<li><img class="image-inline external-image" src="++theme++ploneconf2015.theme/img/icon-email.svg" />
+<h6>Email</h6>
+<a href="mailto:plone-conference@lists.plone.org">Mail to Plone Conf.</a></li>
+<li><img class="image-inline external-image" src="++theme++ploneconf2015.theme/img/icon-twitter.svg" />
+<h6>Twitter</h6>
+<a href="https://twitter.com/hashtag/ploneconf">#ploneconf</a></li>
+<li><img class="image-inline external-image" src="++theme++ploneconf2015.theme/img/icon-url.svg" />
+<h6>URL</h6>
+<a href="http://community.plone.org">community.plone.org</a></li>
+<li><img class="image-inline external-image" src="++theme++ploneconf2015.theme/img/icon-irc.svg" />
+<h6>IRC</h6>
+<a href="http://webchat.freenode.net/?channels=#plone">#plone</a></li>
+</ul>
+<p>Sign up for <br /><a class="btn btn-outline" href="http://lists.plone.org/mailman/listinfo/plone-conference" rel="external" target="_blank" title="Mailing list">Plone-conference mailing list</a></p>
+</section>

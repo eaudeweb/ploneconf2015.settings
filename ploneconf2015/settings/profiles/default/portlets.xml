@@ -1,23 +1,36 @@
 <?xml version="1.0"?>
 <portlets>
+
  <assignment name="volunteer" category="context" key="/"
-    manager="plone.rightcolumn" type="plone.portlet.static.Static"
-    visible="True">
-  <property
-     name="text">&lt;p&gt;&lt;strong&gt;&lt;a class="internal-link volunteer" href="mailto:alec@eaudeweb.ro"&gt;Apply here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</property>
+  manager="plone.rightcolumn" type="plone.portlet.static.Static"
+  visible="True">
+  <property name="text">&lt;section id="volunteer"&gt;
+   &lt;div class="alert alert-danger no-bottom"&gt;
+   &lt;h4&gt;Volunteer at Plone Conference 2015!&lt;/h4&gt;
+   &lt;div class="row"&gt;
+   &lt;div class="col-sm-9 col-lg-10"&gt;
+   &lt;div class="input-align"&gt;We welcome any volunteers to come help us out at the 2015 Plone Conference.&lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class="col-sm-3 col-lg-2"&gt;&lt;a class="volunteer btn btn-warning btn-block" href="mailto:alec@eaudeweb.ro"&gt;Apply here!&lt;/a&gt;&lt;/div&gt;
+   &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;/section&gt;</property>
   <property name="more_url"/>
   <property name="omit_border">False</property>
   <property name="header">Volunteer</property>
   <property name="footer"/>
  </assignment>
  <assignment name="footer" category="context" key="/"
-    manager="plone.rightcolumn" type="plone.portlet.static.Static"
-    visible="True">
-  <property name="text">&lt;table class="invisible"&gt;
-   &lt;tbody&gt;
-   &lt;tr&gt;&lt;th&gt;&lt;a class="footer-schedule" href="front-page#schedule" target="_self" title=""&gt;Schedule&lt;/a&gt;&lt;/th&gt;&lt;th&gt;&lt;a class="footer-training" href="trainings" target="_self" title=""&gt;Training&lt;/a&gt;&lt;/th&gt;&lt;th&gt;&lt;a class="footer-location" href="venue" target="_self" title=""&gt;Location&lt;/a&gt;&lt;/th&gt;&lt;th&gt;&lt;a class="footer-submit-talk" href="front-page#submit-talk" target="_self" title=""&gt;Submit talk&lt;/a&gt;&lt;/th&gt;&lt;th&gt;&lt;a class="terms-and-conditions" href="event-terms-and-conditions" target="_self" title=""&gt;Terms and conditions&lt;/a&gt;&lt;/th&gt;&lt;/tr&gt;
-   &lt;/tbody&gt;
-   &lt;/table&gt;</property>
+  manager="plone.rightcolumn" type="plone.portlet.static.Static"
+  visible="True">
+  <property name="text">&lt;section class="text-center" id="footer"&gt;
+   &lt;div class="img"&gt;&lt;img alt="Plone conf. 2015 logo" class="logo" src="++theme++ploneconf2015.theme/img/ploneconf2015-logo-dark.svg" /&gt;&lt;/div&gt;
+   &lt;a class="btn btn-success btn-rounded" href="../tickets" id="plone-buy-tickets-footer"&gt;Buy your ticket&lt;/a&gt;
+   &lt;p&gt;&lt;a class="schedule btn btn-link" href="../front-page#schedule"&gt;Schedule&lt;/a&gt; | &lt;a class="training btn btn-link" href="../trainings"&gt;Trainings&lt;/a&gt; | &lt;a c
+lass="location btn btn-link" href="../venue"&gt;Location&lt;/a&gt; | &lt;a class="submit-talk btn btn-link" href="../front-page#submit-talk"&gt;Submit talk&lt;/a&gt; | &lt;a class="terms-and
+-conditions btn btn-link" href="../event-terms-and-conditions"&gt;Terms and conditions&lt;/a&gt;&lt;/p&gt;
+   &lt;p&gt;© 2015 Plone.&lt;/p&gt;
+   &lt;/section&gt;</property>
   <property name="more_url"/>
   <property name="omit_border">False</property>
   <property name="header">Footer</property>
