@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<contentrules>
+  <rule name="eea-converter-rule-admin" title="Export failed (admin)"
+     cascading="False"
+     description="Notify admin that there were issues while exporting a document"
+     enabled="True" event="eea.converter.events.interfaces.IAsyncExportFail"
+     stop-after="False">
+   <conditions/>
+   <actions>
+    <action type="plone.actions.Mail">
+     <property name="source"></property>
+     <property
+        name="message">There was an issue while exporting ${download_type} at ${download_came_from_url}.
+      Please fix the issue as soon as possible and notify the user with email ${download_email} that he/she can request a new ${download_type}.
+
+      Error:
+      ${download_error}
+
+      ----------
+      This email is auto-generated and delivered to you because a ${download_type} export was requested for ${download_came_from_url}.
+      ----------</property>
+     <property
+        name="subject">[${download_title}] ${download_type} export failed</property>
+     <property name="recipients">alin@eaudeweb.ro</property>
+     <property name="exclude_actor">False</property>
+    </action>
+   </actions>
+  </rule>
+  <rule name="eea-converter-rule-fail" title="Export failed" cascading="False"
+     description="Notify the person who requested an export that the export failed."
+     enabled="True" event="eea.converter.events.interfaces.IAsyncExportFail"
+     stop-after="False">
+   <conditions/>
+   <actions>
+    <action type="plone.actions.Mail">
+     <property name="source"/>
+     <property
+        name="message">PDF export for ${download_type} at ${download_came_from_url} failed.</property>
+     <property
+        name="subject">[URGENT] PDF not generated for ${download_title}</property>
+     <property name="recipients">alin@eaudeweb.ro, alec@eaudeweb.ro</property>
+     <property name="exclude_actor">False</property>
+    </action>
+   </actions>
+  </rule>
+  <rule name="eea-converter-rule-success" title="Export succeeded"
+    cascading="False"
+    description="Notify the person who requested a document export that the document successfully exported and provide a link to the downloadable file"
+    enabled="True" event="eea.converter.events.interfaces.IAsyncExportSuccess"
+    stop-after="False">
+  <conditions/>
+  <actions>
+   <action type="plone.actions.Mail">
+    <property name="source"/>
+    <property
+       name="message">${download_type} is ready and it is available to be download at any time using the following address
+
+     ${download_url}
+
+     Best wishes,
+     Plone Conference 2015 Team</property>
+    <property
+       name="subject">[${download_title}] ${download_type} ready</property>
+    <property
+       name="recipients">alin@eaudeweb.ro, alec@eaudeweb.ro, gabriela.andrei@eaudeweb.ro</property>
+    <property name="exclude_actor">False</property>
+   </action>
+  </actions>
+ </rule>
+ <assignment name="eea-converter-rule-admin" bubbles="True" enabled="True"
+    location=""/>
+ <assignment name="eea-converter-rule-fail" bubbles="True" enabled="True"
+    location=""/>
+ <assignment name="eea-converter-rule-success" bubbles="True" enabled="True"
+    location=""/>
+</contentrules>
